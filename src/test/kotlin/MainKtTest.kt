@@ -9,7 +9,7 @@ class MainKtTest {
 
         val type = MASTERCARD; MAESTRO
         val amount = 7900000L
-        val expectedAmount = 7949400L
+        val expectedAmount = 7949000L
 
         val actualAmount = paymentSystem(type, amount)
 
